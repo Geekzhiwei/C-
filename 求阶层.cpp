@@ -1,12 +1,10 @@
-//1!+2!+3!+...+10!=
 #include <iostream>
 using namespace std;
 int main()
 {
-   int i,s,sum;
-   s=1;
-   sum=0;
-   for (i=1; i<=10;i++)
+   int i,s=1,sum=0,n;
+   cin>>n;
+   for (i=1; i<=n;i++)
    {
      s*=i;
      sum+=s;
