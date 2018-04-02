@@ -5,7 +5,7 @@ int main()
 {
    int i,s,sum;
    s=1;
-   sum=1;
+   sum=0;
    for (i=1; i<=10;i++)
    {
      s*=i;
