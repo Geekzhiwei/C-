@@ -12,5 +12,6 @@ int main()
         if(n==a*a*a+b*b*b+c*c*c)
             cout<<"水仙花数是："<<n<<endl;
     }
+    system("pause");
     return 0;
 }
