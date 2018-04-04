@@ -10,5 +10,6 @@ int main()
      sum+=s;
    }
    cout<<sum<<endl;
+   system("pause");
    return 0;
 }
