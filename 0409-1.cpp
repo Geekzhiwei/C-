@@ -4,15 +4,20 @@
 using namespace std;
 int main()
 {
-	int a[10]={1,2,3,4,5,6,7,8,9,10};
-	for(int i=0;i<5;i++)
-		{
-		cout<<setw(3)<<a[i];
-	}
-	cout<<endl;
-	for(int j=5;j<10;j++)
-		cout<<setw(3)<<a[j];
-	cout<<endl;
-  system("pause");
-	return 0;
+    int i,j,a[10];
+    for(i=0; i<10; i++)
+    {
+        cout<<"请输入一个10个元素的一维数组：";
+        cin>>a[i];
+    }
+    for(i=0; i<5; i++)
+    {
+        cout<<setw(3)<<a[i];
+    }
+    cout<<endl;
+    for(j=5; j<10; j++)
+        cout<<setw(3)<<a[j];
+    cout<<endl;
+    system("pause");
+    return 0;
 }
