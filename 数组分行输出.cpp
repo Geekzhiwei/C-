@@ -5,11 +5,9 @@ using namespace std;
 int main()
 {
     int i,j,a[10];
+    cout<<"请输入一个10个元素的一维数组：";
     for(i=0; i<10; i++)
-    {
-        cout<<"请输入一个10个元素的一维数组：";
         cin>>a[i];
-    }
     for(i=0; i<5; i++)
     {
         cout<<setw(3)<<a[i];
