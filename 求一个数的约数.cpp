@@ -1,4 +1,4 @@
-//定义一个函数（在主函数中调用），求一个数的全部约数，
+//定义一个函数（在主函数中调用），求一个数的全部约数
 #include <iostream>
 using namespace std;
 void d(int n)
